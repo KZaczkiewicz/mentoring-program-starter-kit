@@ -24,7 +24,7 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [],
-            "styles": [],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -74,5 +74,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
